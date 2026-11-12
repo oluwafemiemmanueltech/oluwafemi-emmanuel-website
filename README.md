@@ -36,15 +36,15 @@ Open `http://127.0.0.1:4173/` in a browser. The development server listens on lo
 - The booking page embeds your Calendly event (`calendly.com/oluwafemiemmanueltech/30min`) as step one. After the invitee books, Calendly reveals the project enquiry form; a manual continue button is also available if the embed blocks its event message. The chosen appointment time must be entered in the form; Calendly does not automatically add it to the email draft.
 - Your résumé LinkedIn profile is linked from the site footer and included in the homepage profile metadata.
 - The Website Care Plan starts at $44/month and the Growth Partner Plan at $55/month. AI phone, SMS and WhatsApp usage charges are based on volume. This website does not take payments.
-- Add your own final domain and canonical URLs before publishing. Generate an absolute sitemap for that domain and submit it after launch.
+- Canonical URLs, social-preview metadata, and the sitemap currently use `https://oluwafemi-emmanuel-80y.pages.dev`. If you connect a custom domain later, update those URLs and `robots.txt` to match.
 - Review the privacy and terms drafts for your actual business and applicable laws.
 
 The portfolio presents public GitHub projects as selected project work and makes no unverified performance claims. Testimonials and attributions are supplied and approved by the site owner.
 
-After choosing the final HTTPS website address, generate the absolute sitemap:
+To regenerate the absolute sitemap after changing the public website address:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\generate-sitemap.ps1 -BaseUrl "https://your-final-domain"
 ```
 
-The script requires a real HTTPS base URL and writes `sitemap.xml`. Add canonical URLs and the sitemap location to `robots.txt` only after the final domain is confirmed.
+The script requires a real HTTPS base URL and writes `sitemap.xml`. Update canonical URLs and the sitemap location in `robots.txt` to use the same domain.

@@ -27,6 +27,7 @@ $pages = @(
     "work/ecommerce.html",
     "work/integrations.html",
     "about.html",
+    "testimonials.html",
     "preview.html",
     "booking.html",
     "contact.html",

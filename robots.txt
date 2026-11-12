@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Generate sitemap.xml after choosing the production domain. See README.md.
+Sitemap: https://oluwafemi-emmanuel-80y.pages.dev/sitemap.xml
