@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Generate sitemap.xml after choosing the production domain. See README.md.
