@@ -29,6 +29,7 @@ Open `http://127.0.0.1:4173/` in a browser. The development server listens on lo
 ## Before publishing
 
 - Review the supplied website screenshots before publishing.
+- The site uses the supplied square monogram as its browser favicon and Apple touch icon.
 - The supplied website MP4s, web app walkthrough, and API Integration Pipeline walkthrough are stored in `assets/videos/`. Website videos appear on `work/websites.html`; the app walkthrough appears on `work/applications.html`; the integration walkthrough appears on `work/integrations.html`. Portfolio videos load when scrolled into view, autoplay muted when ready, and pause off-screen.
 - The homepage testimonials and attributions are user-provided and approved for publication.
 - The free-preview and enquiry forms prepare an email draft to `oluwafemiemmanueltech@gmail.com`. The site does not send, store, or deliver form submissions. A server-side form endpoint and spam protection must be configured before production use.

@@ -215,7 +215,7 @@ p { max-width: 68ch; }
 .metrics-track { display: flex; width: max-content; animation: metrics-roll 32s linear infinite; }
 .metrics-grid { display: flex; flex: 0 0 auto; gap: 1.25rem; }
 .metric-item { display: grid; flex: 0 0 clamp(130px, 15vw, 190px); justify-items: center; gap: 0.35rem; padding: 0.85rem; text-align: center; }
-.metric-item strong { color: #ff5b2e; font-size: clamp(2rem, 3.8vw, 2.7rem); line-height: 1.1; }
+.metric-item .metric-value { color: #ff5b2e; font-size: clamp(2rem, 3.8vw, 2.7rem); line-height: 1.1; }
 .metric-item span { max-width: 20ch; color: #c4c9d2; font-size: 0.92rem; }
 @keyframes metrics-roll { to { transform: translateX(-50%); } }
 .technology-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0 0; padding: 0; list-style: none; }
